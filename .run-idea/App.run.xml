@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="com.devpool.App" />
+    <module name="dev-patron-payment" />
+    <option name="PROGRAM_PARAMETERS" value="--csv $PROJECT_DIR$/../dev-patron-payment/patrons.csv -h -m &quot;DEV patron rewards for epoch XYZ&quot;" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.devpool.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
