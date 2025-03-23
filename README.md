@@ -38,3 +38,6 @@ java -jar target/dev-patron-payment-full-0.0.1-SNAPSHOT.jar \
     -m "Hello TX"    
 ```
 
+The output will show you the HEX of the CBOR transaction. Copy/Paste this into Eternl or other Cardano
+wallets to sign the TX and submit it!
+
