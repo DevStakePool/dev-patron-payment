@@ -88,7 +88,7 @@ public class App {
                 .validTo(lastBlock.getSlot() + (60 * 60)) // 1H TTL
                 .build().serializeToHex();
 
-        log.info("TX (copy/paste this into Eternl wallet): {}", txOutput);
+        log.info("TX (copy/paste this into Eternl wallet):\n{}", txOutput);
     }
 
     public static void main(String[] args) throws Exception {
