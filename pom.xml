@@ -21,7 +21,6 @@
             <artifactId>cardano-client-lib</artifactId>
             <version>${cardano-client-lib.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.bloxbean.cardano/cardano-client-backend-koios -->
         <dependency>
             <groupId>com.bloxbean.cardano</groupId>
             <artifactId>cardano-client-backend-koios</artifactId>
@@ -50,7 +49,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>2.0.17</version>  <!-- Use the latest version -->
+            <version>2.0.17</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
